@@ -1,0 +1,15 @@
+# Site settings
+title: Anton Batiaev Blog
+email: anton@batiaev.com
+description: > # this means to ignore newlines until "baseurl:"
+  My personal blog about different subjects.
+baseurl: "/blog"
+url: "https://batiaev.com"
+twitter_username: batiaev_com
+github_username:  anbat
+permalink: /:year/:month/:day/:title.html
+copyright: Copyright &copy; 2014 &ndash; 2015. Anton Batiaev.<br>All Rights Reserved.
+createdby: Created by me in <strong><a target="_blank" href="https://crebab.com/">Crebab Studio</a></strong>
+
+# Build settings
+markdown: kramdown
