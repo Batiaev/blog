@@ -2,7 +2,8 @@
 layout: post
 title:  "Пример приложения на Gtk+ c использованием Glade"
 date:   2013-04-07 19:48:21
-categories: cairo, C++, Glade, Gtk+, libcairomm, libgtkmm, IT  
+categories: cairo, C++, Glade, Gtk+, libcairomm, libgtkmm, IT
+author: Anton Batiaev
 ---
 Официальный сайт: https://glade.gnome.org/
 
