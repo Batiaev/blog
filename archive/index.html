@@ -9,10 +9,8 @@ date:   2015-10-17 13:19:11
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <b>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </b>
       </li>
     {% endfor %}
   </ul>
