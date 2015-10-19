@@ -2,7 +2,7 @@
 layout: post
 title:  "Локализация приложений написанных на Qt"
 date:   2013-03-12 21:51:21
-categories: [C++, L10n, Qt, IT]
+categories: C++ L10n Qt IT
 ---
 Официальный сайт: http://qt-project.org/
 
