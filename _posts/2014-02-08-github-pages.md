@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Шпаргалка по git"
+title:  "GitHub Pages"
 date:   2014-02-08 10:14:11
 categories: github, gh-pages, website
 ---
