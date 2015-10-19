@@ -2,7 +2,7 @@
 layout: post
 title:  "Статический анализатор исходного кода Cppcheck"
 date:   2013-06-15 23:43:31
-categories: analyzer, cplusplus, CppCheck, IT 
+categories: analyzer cplusplus CppCheck IT 
 ---
 Официальный сайт : http://cppcheck.sf.net/
 

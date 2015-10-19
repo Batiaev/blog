@@ -2,7 +2,7 @@
 layout: post
 title:  "GitHub Pages"
 date:   2014-02-08 10:14:11
-categories: github, gh-pages, website
+categories: github gh-pages website
 ---
 Официальный сайт: [https://pages.github.com/](https://pages.github.com/)
 

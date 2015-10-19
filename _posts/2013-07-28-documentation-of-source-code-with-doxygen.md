@@ -2,7 +2,7 @@
 layout: post
 title:  "Документация исходного кода при помощи Doxygen"
 date:   2013-07-28 23:47:11
-categories: C++, documentation, doxygen, Java, IT 
+categories: C++ documentation doxygen Java IT 
 ---
 Официальный сайт: http://www.doxygen.org/
 

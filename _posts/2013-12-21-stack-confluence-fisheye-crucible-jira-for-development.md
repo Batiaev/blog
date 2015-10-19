@@ -2,7 +2,7 @@
 layout: post
 title:  "Связка Сonfluence + Fisheye + Сrucible + Jira для разработки приложений"
 date:   2013-12-21 9:01:11
-categories: issue-tracker, confluence, fisheye, crucible, jira
+categories: issue-tracker confluence fisheye crucible jira
 ---
 Официальный сайт confluence: [https://www.atlassian.com/software/confluence]
 Официальный сайт crucible: [https://www.atlassian.com/software/crucible]

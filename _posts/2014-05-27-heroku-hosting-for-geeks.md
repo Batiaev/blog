@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Heroku - хостинг для гиков"
+title:  "Heroku - hosting for geeks"
 date:   2014-05-27 6:47:11
-categories: heroku, hosting
+categories: heroku hosting
 ---
 Официальный сайт Heroku: [https://www.heroku.com](https://www.heroku.com)
 Официальный сайт Salesforce (компания владелец): [http://www.salesforce.com/](http://www.salesforce.com/)

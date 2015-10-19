@@ -2,7 +2,7 @@
 layout: post
 title:  "Redmine - багтрекер и система управления проектом"
 date:   2013-11-16 8:53:11
-categories: issue-tracker, redmine
+categories: issue-tracker redmine
 ---
 Официальный сайт: [http://www.redmine.org/](http://www.redmine.org/)
 
