@@ -8,10 +8,12 @@ categories: ci, jenkins
 
 ## Установка:
 
-	wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
-	sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
-	sudo apt-get update
-	sudo apt-get install jenkins
+{% highlight bash %}
+wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt-get update
+sudo apt-get install jenkins
+{% endhighlight %}
 
 После установки Jenkins запустится и будет слушать соединения на порту 8080, для того чтобы изменить порт, следует отредактировать в файле `/etc/default/jenkins` переменную HTTP_PORT (и другие переменные при необходимости) Рестартуем Jenkins и готово. Теперь можно заходить на `localhost:8080` (по умолчанию) и видеть работающий Jenkins.
 
