@@ -2,7 +2,7 @@
 layout: post
 title:  "Документация исходного кода с использованием JavaDoc"
 date:   2013-09-07 8:41:11
-categories: Java, javaDoc
+categories: Java javaDoc
 ---
 Официальный сайт: [http://www.oracle.com](http://www.oracle.com/technetwork/java/javase/documentation/index-jsp-135444.html)
 

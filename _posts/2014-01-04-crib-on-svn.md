@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Шпаргалка по svn"
+title:  "Crib on svn"
 date:   2014-01-04 16:45:11
-categories: vcs, svn
+categories: vcs svn
 ---
 Официальный сайт: [http://subversion.apache.org/](http://subversion.apache.org/)
 

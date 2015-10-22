@@ -2,7 +2,7 @@
 layout: post
 title:  "Выявление ошибок работы с памятью при помощи Valgrind"
 date:   2013-05-13 23:26:31
-categories: analyzer, linux, memcheck, memoryLeaks, Valgrind, IT
+categories: analyzer linux memcheck memoryLeaks Valgrind IT
 ---
 Официальный сайт: http://valgrind.org/
 

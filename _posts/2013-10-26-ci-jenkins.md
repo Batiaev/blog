@@ -2,7 +2,7 @@
 layout: post
 title:  "Jenkins - инструмент для непрерывной интеграции"
 date:   2013-10-26 8:45:11
-categories: ci, jenkins
+categories: ci jenkins
 ---
 Официальный сайт: [http://jenkins-ci.org/](http://jenkins-ci.org/)
 

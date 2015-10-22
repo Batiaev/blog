@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Шпаргалка по git"
+title:  "Crib on git"
 date:   2014-01-11 16:46:11
-categories: vcs, git
+categories: vcs git
 ---
 Официальный сайт: [http://git-scm.com/](http://git-scm.com/)
 
