@@ -6,6 +6,7 @@ categories: linux terminal highlight
 ---
 
 [http://poplinux.ru/node/97](http://poplinux.ru/node/97)
+
 [http://odiszapc.ru/2012/02/17/bash-command-shell-prompt/#PS1_Default_interaction_prompt](http://odiszapc.ru/2012/02/17/bash-command-shell-prompt/#PS1_Default_interaction_prompt)
 
 ###Parameters
@@ -39,6 +40,6 @@ categories: linux terminal highlight
 
 
 ###My example:
-PS1='\\[\e]0;\u@\h: \w\a\\]${debian_chroot:+($debian_chroot)}[\t]\u@\h:\w\$ '
+`PS1='\\[\e]0;\u@\h: \w\a\\]${debian_chroot:+($debian_chroot)}[\t]\u@\h:\w\$ '`
 
-Добавить в файл ~/.bashrc
+Add to file `~/.bashrc`
