@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Rsync over SSH"
-date:   2015-03-31 18:32:11
+date:   2015-11-09 16:12:00
 categories: linux rsync ssh
 ---
 
