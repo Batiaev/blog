@@ -17,3 +17,26 @@
 //	background-color: DarkMagenta;
 //	background-color: rgba(139,0,139,0.7);
 //}
+
+footer div.col-md-6 {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+footer {
+  color: LightGray;
+  background-color: #202020;
+  padding-bottom: 30px;
+}
+footer a,
+footer a:hover,
+footer a:visited {
+  color: LightGray;
+}
+footer h3 {
+  text-align: left;
+  border-bottom: 1px solid darkgreen;
+  padding-bottom: 5px;
+}
+ul.fa-ul {
+  text-align: left;
+}
