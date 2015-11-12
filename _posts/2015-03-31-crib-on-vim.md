@@ -26,9 +26,8 @@ categories: vim linux terminal
 - `:abbr Lunix Linux` - error correction
 - `/` - search
 - `?` - search above
-Updated: <span class="label label-primary"><time datetime="2015-11-12">2015-11-12T11:40:30</time></span>
-- `:set list` show whitespace symbols
-- `:set nolist` hide whitespace symbols
+- `:set list` show whitespace symbols <span class="label label-primary">UPD: <time datetime="2015-11-12">2015-11-12</time></span>
+- `:set nolist` hide whitespace symbols <span class="label label-primary">UPD: <time datetime="2015-11-12">2015-11-12</time></span>
 
 
 ###Moving

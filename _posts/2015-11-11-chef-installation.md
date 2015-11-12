@@ -26,6 +26,7 @@ chef generate app <APP_NAME>
 sudo apt-get install wget -y
 wget https://packagecloud.io/chef/stable/packages/ubuntu/trusty/chef-server-core_12.2.0-1_amd64.deb/download
 sudo dpkg -i chef-server-core_12.2.0-1_amd64.deb
+
 sudo vim /etc/opscode/chef-server.rb
 {% endhighlight %}
 
@@ -38,6 +39,4 @@ sudo vim /etc/opscode/chef-server.rb
 	nginx['ssl_certificate_key'] = "/var/opt/opscode/nginx/ca/#{server_name}.key"
 
 
-{% highlight bash %}
-sudo chef-server-ctl reconfigure
-{% endhighlight %}
+`sudo chef-server-ctl reconfigure`
