@@ -2,6 +2,8 @@ language: ruby
 rvm:
 - 2.2.1
 
+exclude: [vendor]
+
 before_script:
  - chmod +x ./script/cibuild # or do this locally and commit
 
@@ -18,4 +20,3 @@ branches:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
-exclude: [vendor]
