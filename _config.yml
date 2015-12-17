@@ -9,7 +9,7 @@ twitter_username: batiaev_com
 github_username:  anbat
 permalink: /:year/:month/:day/:title.html
 copyright: '&copy; <time datetime="2013-03-13">2013 &ndash; 2015</time> All Rights Reserved.'
-createdby: <strong><a target="_blank" href="https://batiaev.com/">Anton Batiaev</a></strong>
+createdby: <a target="_blank" href="https://batiaev.com/">Anton Batiaev</a>
 
 # Build settings
 markdown: kramdown
