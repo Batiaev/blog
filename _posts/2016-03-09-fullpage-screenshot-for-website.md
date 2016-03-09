@@ -6,4 +6,5 @@ categories: screenshot firefox
 ---
 
 `Shift-F2`
+
 `screenshot file.png --fullpage`
