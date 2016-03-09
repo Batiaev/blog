@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Insert buttom for MC in Mac OS"
-date:   2013-11-19 17:52:11
+date:   2015-11-19 17:52:11
 categories: mc mac-os terminal
 ---
 
