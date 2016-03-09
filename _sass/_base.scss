@@ -19,10 +19,13 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background-color: $background-color;
+    background-color: #202020;
     -webkit-text-size-adjust: 100%;
 }
 
+.wrapper {
+    background-color: $background-color;    
+}
 
 
 /**
