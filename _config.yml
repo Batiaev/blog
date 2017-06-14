@@ -6,9 +6,9 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/blog"
 url: "https://batiaev.com"
 twitter_username: batiaev_com
-github_username:  anbat
-permalink: /:year/:month/:day/:title.html
-copyright: '&copy; <time datetime="2013-03-13">2013 &ndash; 2016</time> Anton Batiaev'
+github_username:  batiaev
+permalink: /:year/:month/:title.html
+copyright: '&copy; <time datetime="2013-03-13">2013 &ndash; 2017</time> Anton Batiaev'
 
 # Build settings
 markdown: kramdown
