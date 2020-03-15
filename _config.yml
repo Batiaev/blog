@@ -1,14 +1,112 @@
-# Site settings
-title: Tech notes
+title: Anton Batiaev
 email: anton@batiaev.com
-description: > # this means to ignore newlines until "baseurl:"
-  My personal blog about different subjects.
-baseurl: "/blog"
-url: "https://batiaev.com"
+description: >- # this means to ignore newlines until "baseurl:"
+  Anton Batiaev - blog of professional at software development(~10y) and finance technologies (~4y),
+  With experience of working on risk management platforms and derivative calculators for
+  large investment banks, modern online neobanks and brokerage firms.
 twitter_username: batiaev_com
-github_username:  batiaev
-permalink: /:year/:month/:title.html
-copyright: '&copy; <time datetime="2013-03-13">2013 &ndash; 2017</time> Anton Batiaev'
+github_username: batiaev
+minimal_mistakes_skin: dark
+search: true
 
 # Build settings
 markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+author:
+  name   : "Anton Batiaev"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "~10 years of software development & ~4 years of finance technologies"
+  links:
+    - label: "London, UK"
+      icon: "fas fa-fw fa-map-marker-alt"
+      url: "https://www.google.com/maps/place/Canary+Wharf,+London"
+    - label: "batiaev.com"
+      icon: "fas fa-fw fa-link"
+      url: "https://batiaev.com"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:anton@batiaev.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/batiaev_com"
+    - label: "Telegram"
+      icon: "fab fa-fw fa-telegram"
+      url: "https://telegram.org/batiaev_com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/batiaev"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/batiaev"
+    - label: "Stack Overflow"
+      icon: "fab fa-fw fa-stack-overflow"
+      url: "https://stackoverflow.com/users/3445083/batiaev"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://medium.com/@batiaev"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/batiaev_com"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://medium.com/@batiaev"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
